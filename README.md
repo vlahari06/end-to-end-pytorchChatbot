@@ -46,7 +46,7 @@ $ python
 >>> nltk.download('punkt')
 ```
 
-## Usage
+## Pytorch model Usage
 Run
 ```console
 python train.py
@@ -81,3 +81,14 @@ Have a look at [intents.json](intents.json). You can customize it according to y
   ]
 }
 ```
+
+## Create a web Application using Flask
+
+- install flask 
+ ```console
+pip install flask
+ ```
+- Index.html file in templates has the html and Javascript code for frontend. Detailed explanation of html file is given in [https://dev.to/sahilrajput/build-a-chatbot-using-flask-in-5-minutes-574i](https://dev.to/sahilrajput/build-a-chatbot-using-flask-in-5-minutes-574i)
+- Run app.py that directs to a URL and chat with the bot
+- The chat.py consists the code that takes saved model and returns the predicted sentence.
+
