@@ -7,7 +7,7 @@ Simple chatbot 2 layer implementation with PyTorch and Flask.
 - The flask implementation is inspired from this tutorial [https://towardsdatascience.com/model-deployment-using-flask-c5dcbb6499c9] (https://towardsdatascience.com/model-deployment-using-flask-c5dcbb6499c9) 
 - The approach is inspired by this article and ported to PyTorch: [https://chatbotsmagazine.com/contextual-chat-bots-with-tensorflow-4391749d0077](https://chatbotsmagazine.com/contextual-chat-bots-with-tensorflow-4391749d0077).
 
-## Followed to video tutorial to create the pytorch model
+## Followed the below video tutorial to create the pytorch model
 [![Alt text](https://img.youtube.com/vi/RpWeNzfSUHw/hqdefault.jpg)](https://www.youtube.com/watch?v=RpWeNzfSUHw&list=PLqnslRFeH2UrFW4AUgn-eY37qOAWQpJyg)
 
 ## Installation
@@ -91,4 +91,9 @@ pip install flask
 - Index.html file in templates has the html and Javascript code for frontend. Detailed explanation of html file is given in [https://dev.to/sahilrajput/build-a-chatbot-using-flask-in-5-minutes-574i](https://dev.to/sahilrajput/build-a-chatbot-using-flask-in-5-minutes-574i)
 - Run app.py that directs to a URL and chat with the bot
 - The chat.py consists the code that takes saved model and returns the predicted sentence.
+
+
+## Detailed Article
+
+Coming Soon
 
